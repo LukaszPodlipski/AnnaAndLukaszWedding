@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <p>Strona w budowie</p>
     <div class="waviy">
       <span style="--i: 1">3</span>
       <span style="--i: 2">0</span>
@@ -12,17 +13,23 @@
       <span style="--i: 9">2</span>
       <span style="--i: 10">5</span>
     </div>
+    <p>Zapraszamy do odwiedzenia nas wkrótce!</p>
   </div>
 </template>
 
 <style scoped>
 .wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  gap: 20px;
   width: 100%;
+  color: #fff;
+  font-size: 22px;
   background-color: #0e0e0e;
+  text-align: center;
 }
 
 .waviy {
