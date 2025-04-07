@@ -1,61 +1,48 @@
-# anna-and-lukasz-wedding
+# My Nuxt 3 Starter Template (early 2025)
 
-This template should help get you started developing with Vue 3 in Vite.
+### Features:
 
-## Recommended IDE Setup
+- Nuxt Fonts
+- Nuxt Image
+- Nuxt Icon (local icons setup included)
+- Nuxt i18n
+- PrimeVue as UI library - unstyled hybrid mode
+- TailwindCSS
+- Vee Validate + Yup
+- Husky
+- Eslint + Prettier
+- Typescript
+- Vue Use
+- SCSS
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+# Development and build flow
 
-## Type Support for `.vue` Imports in TS
+## Setup (using Bun)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Make sure to install the dependencies:
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```
+bun install
 ```
 
-### Compile and Hot-Reload for Development
+## Development Server
 
-```sh
-npm run dev
+Start the development server on `http://localhost:3000`:
+
+```
+bun run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Production
 
-```sh
-npm run build
+Build the application for production:
+
+```
+bun run build
 ```
 
-### Run Headed Component Tests with [Cypress Component Testing](https://on.cypress.io/component)
+Locally preview production build:
 
-```sh
-npm run test:unit:dev # or `npm run test:unit` for headless testing
 ```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+bun run preview
 ```

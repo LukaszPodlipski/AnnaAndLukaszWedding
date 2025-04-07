@@ -1,0 +1,62 @@
+@use '../_typography';
+
+.p-button {
+  /* Alignment */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min-content;
+  flex-wrap: nowrap;
+  text-wrap: nowrap;
+  gap: 8px;
+  height: min-content;
+  transition: background-color 0.2s ease-in-out;
+
+  /* Cursor */
+  cursor: pointer;
+
+  /* Typography */
+  @extend .text-body-m;
+
+  /* Default button icon size */
+  svg {
+    font-size: 20px;
+  }
+
+  /* Styling */
+  padding: 10px 10px;
+  border-radius: 8px;
+
+  &.text {
+    @extend .text-medium;
+    background-color: transparent;
+    color: var(--color-neutral-off-black);
+    font-weight: 400 !important;
+    gap: 4px;
+    padding: 0;
+
+    svg {
+      color: var(--color-neutral-off-black);
+    }
+
+    /* Text Active */
+    &:not(:disabled):not(.loading):active {
+      color: var(--color-neutral-1000);
+    }
+
+    /* Text Hover */
+    &:not(:active):not(:disabled):not(.loading):hover {
+      color: var(--color-neutral-1000);
+
+      svg {
+        color: var(--color-neutral-1000);
+      }
+    }
+
+    /* Text Disabled */
+    &:disabled {
+      cursor: not-allowed;
+      color: var(--color-neutral-700);
+    }
+  }
+}

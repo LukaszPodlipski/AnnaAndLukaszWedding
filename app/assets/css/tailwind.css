@@ -1,0 +1,59 @@
+/* Import TailwindCSS as important to override the default styles */
+@import 'tailwindcss';
+
+/* Set default text color to font-primary */
+@layer base {
+  html {
+    @apply text-neutral-off-black;
+  }
+}
+
+@theme {
+  /* Clear default colors */
+  --color-*: initial;
+  /* --------------------- MY TOKENS ------------------------- */
+  --color-black: var(--color-neutral-off-black);
+  --color-white: var(--color-neutral-0);
+  /* --------------------- COLORS ------------------------- */
+
+  /* neutral */
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #fcfcfc;
+  --color-neutral-100: #f5f5f5;
+  --color-neutral-200: #e6e6e6;
+  --color-neutral-300: #dbdbdb;
+  --color-neutral-400: #d9d9d9;
+  --color-neutral-500: #c9c9c9;
+  --color-neutral-600: #c4c4c4;
+  --color-neutral-700: #a1a1a1;
+  --color-neutral-800: #949696;
+  --color-neutral-900: #8c8f8f;
+  --color-neutral-950: #666666;
+  --color-neutral-1000: #575757;
+  --color-neutral-off-black: #050000;
+
+  /* blue */
+  --color-blue-500: #4285f5;
+
+  /* green */
+  --color-green-500: #33a854;
+  --color-green-900: #1f403d;
+
+  /* orange */
+  --color-orange-50: #ffefdb;
+  --color-orange-100: #ffe0d1;
+  --color-orange-200: #ffcaa2;
+  --color-orange-300: #ffa174;
+  --color-orange-400: #ff8145;
+  --color-orange-500: #ff6217;
+  --color-orange-600: #cc4e12;
+  --color-orange-700: #99360e;
+  --color-orange-800: #662709;
+  --color-orange-900: #331405;
+
+  /* red */
+  --color-red-500: #eb4236;
+
+  /* yellow */
+  --color-yellow-500: #fabd05;
+}
