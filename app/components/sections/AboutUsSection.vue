@@ -5,7 +5,7 @@
 <template>
   <div
     id="about-us-section"
-    class="about-us-section mt-[-100px] scroll-m-16 md:mt-0 md:pt-0"
+    class="about-us-section mt-[-100px] scroll-m-16 pt-[100px] md:mt-0 md:pt-0"
   >
     <div class="content-wrapper-narrow flex flex-col items-center gap-16">
       <div class="flex flex-col items-center gap-2 text-white">

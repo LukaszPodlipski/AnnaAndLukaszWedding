@@ -52,7 +52,7 @@
       </template>
     </div>
     <span
-      class="text-h1 right-0px absolute bottom-[-10px] left-0 mx-auto block text-center text-white md:bottom-[-120px] md:text-green-900 lg:hidden"
+      class="text-h1 right-0px absolute bottom-[-10px] left-[-15px] mx-auto block text-center text-white sm:left-[60px] md:bottom-[-120px] md:text-green-900 lg:left-0 lg:hidden"
     >
       30.08.25
     </span>
