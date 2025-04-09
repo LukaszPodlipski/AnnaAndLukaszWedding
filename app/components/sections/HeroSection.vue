@@ -14,7 +14,7 @@
       class="mt-12 flex w-full flex-col items-center justify-between gap-16 overflow-hidden text-wrap xl:mt-[100px] xl:flex-row xl:items-start xl:gap-4"
     >
       <p
-        class="text-h-extra max-w-none px-6 text-center leading-[1] uppercase xl:max-w-[350px] xl:text-left"
+        class="text-h-extra text-h1--keep-size max-w-none px-6 text-center leading-[1] uppercase xl:max-w-[350px] xl:text-left"
         :class="isWebWidth ? 'text-h-extra' : 'text-h1'"
       >
         {{ $t('heroContent.saveTheDate') }}
