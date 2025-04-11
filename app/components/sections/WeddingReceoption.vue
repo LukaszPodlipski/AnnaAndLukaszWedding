@@ -8,7 +8,7 @@
     class="wedding-reception bg-green-900 !pb-12"
   >
     <div class="content-wrapper-wide">
-      <div class="flex flex-col items-start gap-16 text-left text-white">
+      <div class="flex flex-col items-start gap-8 text-left text-white">
         <h1 class="text-h1">Wesele</h1>
         <h2 class="text-h2 -mt-8">Pałac Radomiłów</h2>
         <a

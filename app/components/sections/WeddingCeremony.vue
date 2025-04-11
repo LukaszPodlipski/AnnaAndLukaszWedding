@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <div id="wedding-ceremony-section" class="wedding-ceremony bg-white !pb-12">
+  <div id="wedding-ceremony-section" class="wedding-ceremony !pb-12">
     <div class="content-wrapper-wide">
-      <div class="flex flex-col items-end gap-16 text-right text-green-900">
+      <div class="flex flex-col items-end gap-8 text-right text-green-900">
         <h1 class="text-h1">Ceremonia Ślubu</h1>
         <h2 class="text-h2 -mt-8">
           Kadedra pw. św. apostołów

@@ -10,29 +10,50 @@
     <div class="flex flex-col items-center gap-16">
       <div class="flex flex-col items-center gap-2 text-green-900">
         <h2 class="text-h2 text-center">Nasza historia</h2>
-        <span class="text-body-l text-center">
-          Jak się poznaliśmy, co przeżyliśmy
-        </span>
       </div>
     </div>
-    <div class="text-body-m flex flex-col items-center gap-6 text-green-900">
+    <div class="text-body-m flex flex-col gap-6 text-green-900">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Czasem ludzie pytają:
+        <em>"Skąd wiedzieliście?"</em>
       </p>
+
       <p>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-        qui officia deserunt mollit anim id est laborum.
+        A my po prostu się uśmiechamy. Bo… wiedzieliśmy od razu. Bez znaków z
+        nieba, bez długich analiz. Spotkaliśmy się i wszystko stało się jasne.
       </p>
+
       <p>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-        qui officia deserunt mollit anim id est laborum.
+        Trzy miesiące. Tyle minęło, zanim się zaręczyliśmy. Niektórzy uznaliby
+        to za szaleństwo — dla nas to była najprostsza decyzja świata. Nie
+        potrzebowaliśmy więcej czasu, żeby wiedzieć, że to właśnie z tą osobą
+        chcemy budować swoje życie.
+      </p>
+
+      <p>
+        Ale…
+        <strong>ciii</strong>
+        .
+      </p>
+
+      <p>
+        Rodzicom powiedzieliśmy dopiero równo rok po tej dacie. Nie dlatego, że
+        się baliśmy — po prostu chcieliśmy, żeby to było nasze. Przez chwilę
+        tylko nasze. Mała tajemnica, którą nosiliśmy z uśmiechem, patrząc na
+        siebie ze świadomością:
+        <em>"Już wiemy. Teraz czas pokaże reszcie."</em>
+      </p>
+
+      <p>
+        Od tamtej pory minęło wiele wspólnych dni. Każdy z nich tylko
+        potwierdzał to, co czuliśmy od samego początku. Że nic nie dzieje się
+        przypadkiem. Że spotkaliśmy się dokładnie wtedy, kiedy trzeba. I że z
+        nami wszystko zawsze miało sens.
+      </p>
+
+      <p>
+        A teraz jesteśmy tutaj — gotowi zrobić kolejny krok. Nie dlatego, że
+        trzeba. Tylko dlatego, że chcemy. I zawsze chcieliśmy.
       </p>
     </div>
     <div class="flex items-center gap-2" :class="{ 'flex-col': !isWebWidth }">
@@ -102,9 +123,10 @@
         name="local:quote-symbols"
         class="min-h h-[30px] w-[34px] text-green-900"
       />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing eli sed do eiusmod
-        tempor
+      <p class="text-center">
+        Znaleźć miłość życia i najlepszego przyjaciela w jednej osobie to jak
+        odkryć, że twoja ulubiona przekąska jest zdrowa – cud rzadki, ale
+        możliwy.
       </p>
       <Icon
         name="local:quote-symbols"

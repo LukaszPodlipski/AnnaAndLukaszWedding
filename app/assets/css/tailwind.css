@@ -14,6 +14,7 @@
   /* --------------------- MY TOKENS ------------------------- */
   --color-black: var(--color-neutral-off-black);
   --color-white: var(--color-neutral-0);
+  --color-soft-grey: var(--color-neutral-75);
   /* --------------------- COLORS ------------------------- */
 
   /* neutral */
@@ -21,6 +22,7 @@
   --color-neutral-50: #fcfcfc;
   --color-neutral-100: #f5f5f5;
   --color-neutral-200: #e6e6e6;
+  --color-neutral-75: #f7f6f6;
   --color-neutral-300: #dbdbdb;
   --color-neutral-400: #d9d9d9;
   --color-neutral-500: #c9c9c9;
@@ -31,7 +33,6 @@
   --color-neutral-950: #666666;
   --color-neutral-1000: #575757;
   --color-neutral-off-black: #050000;
-
   /* blue */
   --color-blue-500: #4285f5;
 
