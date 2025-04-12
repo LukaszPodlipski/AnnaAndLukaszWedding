@@ -42,6 +42,7 @@
     "yup": "^1.6.1"
   },
   "devDependencies": {
+    "@iconify-json/material-symbols-light": "^1.2.19",
     "@nuxt/eslint": "^1.0.1",
     "eslint": "^9.20.1",
     "eslint-plugin-prettier": "^5.2.3",

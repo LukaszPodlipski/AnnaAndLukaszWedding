@@ -80,8 +80,8 @@
       <div class="flex flex-wrap items-center justify-center gap-16">
         <Timeline :value="events" align="alternate" class="w-full md:w-80">
           <template #content="slotProps">
-            <div class="flex flex-col" :class="slotProps.item.class">
-              <span :class="isMobileWidth ? 'text-body-s' : 'text-body-m'">
+            <div class="flex flex-col gap-2" :class="slotProps.item.class">
+              <span :class="isMobileWidth ? 'text-body-m' : 'text-body-l'">
                 {{ slotProps.item.hour }}
               </span>
               <span :class="isMobileWidth ? 'text-body-s' : 'text-body-l'">

@@ -15,7 +15,7 @@
       <div class="mt-8 flex flex-wrap justify-center gap-24">
         <div class="flex flex-col items-center gap-2">
           <NuxtImg
-            src="/women.jpg"
+            src="/ania.jpg"
             class="h-[150px] w-[120px] rounded-[60px] object-cover"
           />
           <span class="text-body-l text-green-900">Ania Sipurzyńska</span>

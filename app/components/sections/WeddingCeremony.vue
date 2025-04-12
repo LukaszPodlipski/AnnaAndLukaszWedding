@@ -35,7 +35,7 @@
             :class="{ 'flex-col': !isWebWidth }"
           >
             <span class="text-body-m">
-              Katedra rozpoczęta w XIII wieku przeszła liczne przebudowy, w
+              Katedra wzniesiona w XIII wieku przeszła liczne przebudowy, w
               wyniku których łączy w sobie pierwotny gotyk z renesansowymi i
               barokowymi akcentami. Ta warstwowość świadczy o długiej, burzliwej
               historii budowli.
@@ -56,9 +56,8 @@
             ></div>
 
             <span class="text-body-m">
-              Katedra była areną ważnych uroczystości – od koronacji lokalnych
-              władców po uroczyste msze i spotkania, które na trwałe wpisały ją
-              w historię Legnicy jako symbol duchowego i kulturowego centrum
+              Katedra była areną ważnych uroczystości – które na trwałe wpisały
+              ją w historię Legnicy jako symbol duchowego i kulturowego centrum
               miasta.
             </span>
           </div>
