@@ -17,7 +17,7 @@
     {
       dateNumber: '25',
       date: '30 SIERPNIA 2025',
-      description: 'POBIERZMY SIĘ',
+      description: 'POBIERZEMY SIĘ',
       imagePath: 'hero-right-image.jpg',
     },
   ];
