@@ -67,7 +67,7 @@
     background-repeat: no-repeat;
 
     @media (max-width: 640px) {
-      background-position: -400px;
+      background-position: -100px;
       background-size: 1000px;
     }
   }

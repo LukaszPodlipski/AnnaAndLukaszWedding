@@ -50,7 +50,7 @@
         <div class="flex flex-col items-center gap-4">
           <Icon name="local:drink" class="h-[60px] w-[60px]" />
           <span class="text-body-l">Obsługa barmańska</span>
-          <span class="text-body-m -mt-2">Cały dzień</span>
+          <span class="text-body-m -mt-2">18:00 - 02:00</span>
         </div>
         <div
           class="app-separator--flat max-w-[180px] !bg-green-900 opacity-15"

@@ -69,7 +69,7 @@
     class="day-schedule-section scroll-m-16 md:mt-0 md:pt-0"
   >
     <div
-      class="content-wrapper-narrow flex flex-col items-center gap-16 !px-2 !pb-16"
+      class="content-wrapper-narrow flex flex-col items-center gap-16 !px-2 !pb-12 lg:!pb-16"
     >
       <div class="flex flex-col items-center gap-2 text-white">
         <h2 class="text-h2 text-center">Plan dnia</h2>
@@ -84,7 +84,7 @@
               <span :class="isMobileWidth ? 'text-body-m' : 'text-body-l'">
                 {{ slotProps.item.hour }}
               </span>
-              <span :class="isMobileWidth ? 'text-body-s' : 'text-body-l'">
+              <span :class="isMobileWidth ? 'text-body-m' : 'text-body-l'">
                 {{ slotProps.item.description }}
               </span>
             </div>

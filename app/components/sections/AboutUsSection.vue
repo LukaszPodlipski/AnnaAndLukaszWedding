@@ -32,7 +32,8 @@
               <br />
               Ostatnio wróciłam do swojej pasji z czasów gimnazjum. Gdy już mam
               dość nauki farmakologii, patomorfologii i anatomi lubię pograć w
-              gry wideo z Łukaszem i przyjaciółmi, z którymi tworzymy zespół.
+              gry wideo z Łukaszem i przyjaciółmi, z którymi tworzymy zgrany
+              zespół.
               <br />
               <br />
               Gdybym miała wybrać jedno danie, które mogłabym jeść do końca
