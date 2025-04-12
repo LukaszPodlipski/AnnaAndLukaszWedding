@@ -5,19 +5,19 @@
     {
       dateNumber: '30',
       date: '01 MARZEC 2019',
-      description: 'DZIEŃ W KTÓRYM SIĘ POZNALIŚMY',
+      description: 'POZNALIŚMY SIĘ',
       imagePath: 'hero-left-image.jpg',
     },
     {
       dateNumber: '08',
       date: '29 CZERWCA 2019',
-      description: 'DZIEŃ W KTÓRYM SIĘ ZARĘCZYLIŚMY',
+      description: 'ZARĘCZYLIŚMY SIĘ',
       imagePath: 'hero-center-image.jpg',
     },
     {
       dateNumber: '25',
-      date: '25 LISTOPAD 2025',
-      description: 'DZIEŃ W KTÓRYM SIĘ POBIERZAMY',
+      date: '30 SIERPNIA 2025',
+      description: 'POBIERZMY SIĘ',
       imagePath: 'hero-right-image.jpg',
     },
   ];
@@ -45,7 +45,7 @@
         <div class="vertical-line"></div>
         <div class="flex flex-col items-center gap-2">
           <span class="text-body-s text-center">{{ tile.date }}</span>
-          <span class="text-body-m max-w-[150px] text-center">
+          <span class="text-body-m max-w-[150px] text-center text-nowrap">
             {{ tile.description }}
           </span>
         </div>
@@ -96,7 +96,7 @@
   .date-number {
     position: absolute;
     bottom: 240px;
-    right: -50px;
+    right: -60px;
     background: linear-gradient(
       90deg,
       var(--color-neutral-1000) 40%,
