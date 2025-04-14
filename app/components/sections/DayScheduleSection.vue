@@ -17,7 +17,7 @@
     },
     {
       description:
-        'Uroczystość ślubna w Katedrze pw. św. apostołów Piotra i Pawła w Legnicy',
+        'Uroczystość ślubna w Katedrze pw. św. Apostołów Piotra i Pawła w Legnicy',
       hour: '14:00',
       icon: 'local:church',
       class: 'pb-12',

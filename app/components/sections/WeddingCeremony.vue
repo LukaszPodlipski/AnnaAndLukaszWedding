@@ -8,7 +8,7 @@
       <div class="flex flex-col items-end gap-8 text-right text-green-900">
         <h1 class="text-h1">Ceremonia Ślubu</h1>
         <h2 class="text-h2 -mt-8">
-          Kadedra pw. św. apostołów
+          Kadedra pw. św. Apostołów
           <br />
           Piotra i Pawłą w Legnicy
         </h2>
