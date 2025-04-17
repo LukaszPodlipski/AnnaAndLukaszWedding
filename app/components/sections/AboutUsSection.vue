@@ -100,7 +100,7 @@
               <br />
               <br />
               Poza tym jestem miłośnikiem militarii, co przekłada się na godziny
-              spędzone przy słuchawniu podcastów o tej tematyce jak i
+              spędzone przy słuchaniu podcastów o tej tematyce jak i
               weekendowych wypadach na gry Airsoft wspólnie z Anią i
               przyjaciółmi.
               <br />
