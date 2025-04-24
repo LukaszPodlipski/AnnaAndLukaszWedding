@@ -1,0 +1,19 @@
+{
+  "heroMenu": {
+    "aboutUs": "O nas",
+    "daySchedule": "Plan dnia",
+    "attractions": "Atrakcje",
+    "wedding": "Ślub",
+    "weddingReception": "Wesele",
+    "contact": "Kontakt"
+  },
+  "heroContent": {
+    "saveTheDate": "Save the date",
+    "dateWeMetDate": "01 MARZEC 2019",
+    "descriptionWeMet": "DZIEŃ W KTÓRYM SIĘ POZNALIŚMY",
+    "dateWeEngagedDate": "08 LIPIEC 2025",
+    "descriptionWeEngaged": "DZIEŃ W KTÓRYM SIĘ ZARĘCZYLIŚMY",
+    "dateWeddingDate": "25 LISTOPAD 2025",
+    "descriptionWedding": "DZIEŃ W KTÓRYM SIĘ POBIERZAMY"
+  }
+}

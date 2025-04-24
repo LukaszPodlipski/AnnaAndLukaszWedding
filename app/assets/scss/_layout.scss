@@ -1,0 +1,32 @@
+.content-wrapper-wide {
+  width: 100%;
+  max-width: 1348px;
+  margin: 0 auto;
+  padding: 48px 32px;
+
+  @media (max-width: 1024px) {
+    padding: 24px;
+  }
+
+  &.no-padding {
+    padding: 0;
+  }
+}
+
+.content-wrapper-narrow {
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 48px 32px 96px 32px;
+
+  &.no-padding {
+    padding: 0;
+  }
+}
+
+.content-wrapper-middle-wide {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 32px;
+}

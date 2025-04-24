@@ -1,0 +1,92 @@
+$font-weight-medium: 500;
+$font-weight-regular: 400;
+
+.text-medium {
+  font-weight: $font-weight-medium;
+}
+
+.text-regular {
+  font-weight: $font-weight-regular;
+}
+
+/* Heading */
+
+.text-h-extra {
+  @extend .text-regular;
+  font-size: 128px !important;
+  letter-spacing: 0px;
+
+  &-md {
+    @extend .text-h-extra;
+    @extend .text-medium;
+  }
+}
+
+.text-h1 {
+  @extend .text-regular;
+  font-size: 96px;
+  letter-spacing: 0px;
+
+  &:not(.text-h1--keep-size) {
+    @media screen and (max-width: 768px) {
+      font-size: 64px;
+    }
+  }
+
+  &-md {
+    @extend .text-h1;
+    @extend .text-medium;
+  }
+}
+
+.text-h2 {
+  @extend .text-regular;
+  font-size: 48px;
+  letter-spacing: 0px;
+
+  &:not(.text-h2--keep-size) {
+    @media screen and (max-width: 768px) {
+      font-size: 42px;
+    }
+  }
+
+  &-md {
+    @extend .text-h2;
+    @extend .text-medium;
+  }
+}
+
+/* Body */
+
+.text-body-l {
+  @extend .text-regular;
+  font-size: 24px;
+  letter-spacing: 0.2px;
+
+  &-md {
+    @extend .text-body-l;
+    @extend .text-medium;
+  }
+}
+
+.text-body-m {
+  @extend .text-regular;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+
+  &-md {
+    @extend .text-body-m;
+    @extend .text-medium;
+  }
+}
+
+.text-body-s {
+  @extend .text-regular;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+
+  &-md {
+    @extend .text-body-s;
+    @extend .text-medium;
+  }
+}
