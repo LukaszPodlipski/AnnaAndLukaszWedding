@@ -65,6 +65,8 @@ export default defineNuxtConfig({
     public: {
       apiBaseUrl: process.env.API_BASE_URL,
       googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
+      displayDayScheduleSection: process.env.DISPLAY_DAY_SCHEDULE_SECTION,
+      displayAttractionsSection: process.env.DISPLAY_ATTRACTIONS_SECTION,
     },
   },
 

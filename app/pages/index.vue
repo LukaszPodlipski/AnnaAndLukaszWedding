@@ -9,6 +9,10 @@
   import OurStorySection from '~/components/sections/OurStorySection.vue';
   import WeddingCeremony from '~/components/sections/WeddingCeremony.vue';
   import WeddingReceoption from '~/components/sections/WeddingReceoption.vue';
+
+  const config = useRuntimeConfig();
+  const displayDayScheduleSection = config.public.displayDayScheduleSection;
+  const displayAttractionsSection = config.public.displayAttractionsSection;
 </script>
 
 <template>
@@ -17,8 +21,8 @@
     <HeroSection />
     <AboutUsSection />
     <OurStorySection />
-    <DayScheduleSection />
-    <AttractionsSection />
+    <DayScheduleSection v-if="displayDayScheduleSection" />
+    <AttractionsSection v-if="displayAttractionsSection" />
     <AdditionalInfoSection />
     <WeddingCeremony />
     <MapSection

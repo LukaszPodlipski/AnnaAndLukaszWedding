@@ -53,31 +53,33 @@
             <div class="flex w-full flex-col gap-4">
               <div class="flex w-full flex-col gap-2">
                 <div class="flex w-full justify-between">
-                  <span class="text-body-s text-white">Lorem ipsum</span>
+                  <span class="text-body-s text-white">Horrory</span>
                   <span class="text-body-s text-white">100%</span>
                 </div>
                 <ProgressBar :value="50"></ProgressBar>
               </div>
               <div class="flex w-full flex-col gap-2">
                 <div class="flex w-full justify-between">
-                  <span class="text-body-s text-white">Lorem ipsum</span>
-                  <span class="text-body-s text-white">100%</span>
+                  <span class="text-body-s text-white">Gry komputerowe</span>
+                  <span class="text-body-s text-white">85%</span>
+                </div>
+                <ProgressBar :value="85"></ProgressBar>
+              </div>
+              <div class="flex w-full flex-col gap-2">
+                <div class="flex w-full justify-between">
+                  <span class="text-body-s text-white">
+                    Pieczenie słodkości
+                  </span>
+                  <span class="text-body-s text-white">70%</span>
                 </div>
                 <ProgressBar :value="70"></ProgressBar>
               </div>
               <div class="flex w-full flex-col gap-2">
                 <div class="flex w-full justify-between">
-                  <span class="text-body-s text-white">Lorem ipsum</span>
-                  <span class="text-body-s text-white">100%</span>
+                  <span class="text-body-s text-white">Malowanie</span>
+                  <span class="text-body-s text-white">60%</span>
                 </div>
-                <ProgressBar :value="90"></ProgressBar>
-              </div>
-              <div class="flex w-full flex-col gap-2">
-                <div class="flex w-full justify-between">
-                  <span class="text-body-s text-white">Lorem ipsum</span>
-                  <span class="text-body-s text-white">100%</span>
-                </div>
-                <ProgressBar :value="100"></ProgressBar>
+                <ProgressBar :value="60"></ProgressBar>
               </div>
             </div>
           </div>

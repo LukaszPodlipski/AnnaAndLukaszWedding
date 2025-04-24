@@ -1,34 +1,41 @@
 <script setup lang="ts">
   const { t } = useI18n();
   const { isWebWidth } = useWebScreenSize();
+  const config = useRuntimeConfig();
+  const displayDayScheduleSection = config.public.displayDayScheduleSection;
+  const displayAttractionsSection = config.public.displayAttractionsSection;
 
-  const menuItems = [
-    {
-      label: t('heroMenu.aboutUs'),
-      href: '/about-us',
-      scrollTo: 'about-us-section',
-    },
-    {
-      label: t('heroMenu.daySchedule'),
-      href: '/day-schedule',
-      scrollTo: 'day-schedule-section',
-    },
-    {
-      label: t('heroMenu.attractions'),
-      href: '/attractions',
-      scrollTo: 'attractions-section',
-    },
-    {
-      label: t('heroMenu.wedding'),
-      href: '/wedding',
-      scrollTo: 'wedding-ceremony-section',
-    },
-    {
-      label: t('heroMenu.weddingReception'),
-      href: '/wedding-reception',
-      scrollTo: 'wedding-reception-section',
-    },
-  ];
+  const menuItems = computed(() => {
+    return [
+      {
+        label: t('heroMenu.aboutUs'),
+        href: '/about-us',
+        scrollTo: 'about-us-section',
+      },
+      {
+        label: t('heroMenu.daySchedule'),
+        href: '/day-schedule',
+        scrollTo: 'day-schedule-section',
+        hidden: !displayDayScheduleSection,
+      },
+      {
+        label: t('heroMenu.attractions'),
+        href: '/attractions',
+        scrollTo: 'attractions-section',
+        hidden: !displayAttractionsSection,
+      },
+      {
+        label: t('heroMenu.wedding'),
+        href: '/wedding',
+        scrollTo: 'wedding-ceremony-section',
+      },
+      {
+        label: t('heroMenu.weddingReception'),
+        href: '/wedding-reception',
+        scrollTo: 'wedding-reception-section',
+      },
+    ].filter((item) => !item.hidden);
+  });
 
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
