@@ -33,7 +33,7 @@
         <div class="flex flex-col items-center gap-4">
           <Icon name="local:folk-dance-soft" class="h-[60px] w-[60px]" />
           <span class="text-body-l">Pokaz tańców ludowych</span>
-          <span class="text-body-m -mt-2">21:00</span>
+          <span class="text-body-m -mt-2">21:30</span>
         </div>
         <div
           class="app-separator--flat max-w-[180px] !bg-green-900 opacity-15"
@@ -50,7 +50,7 @@
         <div class="flex flex-col items-center gap-4">
           <Icon name="local:drink" class="h-[60px] w-[60px]" />
           <span class="text-body-l">Obsługa barmańska</span>
-          <span class="text-body-m -mt-2">18:00 - 02:00</span>
+          <span class="text-body-m -mt-2">18:45 - 02:00</span>
         </div>
         <div
           class="app-separator--flat max-w-[180px] !bg-green-900 opacity-15"
