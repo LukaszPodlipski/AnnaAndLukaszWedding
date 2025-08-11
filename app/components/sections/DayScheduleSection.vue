@@ -3,53 +3,47 @@
 
   const events = ref([
     {
-      description: 'Wyjazd Pana Młodego wraz z rodziną do domu Pani Młodej.',
-      hour: '12:15',
-      icon: 'local:bowtie',
-      class: 'pb-8',
-    },
-    {
       description:
-        'Przyjazd Pana Młodego i gości weselnych do domu Pani Młodej. Błogosławieństwo Młodej Pary.',
-      hour: '12:45',
+        'Przyjazd Pana Młodego i gości weselnych do domu Panny Młodej. Błogosławieństwo Młodej Pary.',
+      hour: '13:00',
       icon: 'local:heart-home',
       class: 'pb-10',
     },
     {
       description:
         'Uroczystość ślubna w Katedrze pw. św. Apostołów Piotra i Pawła w Legnicy',
-      hour: '14:00',
+      hour: '15:00',
       icon: 'local:church',
       class: 'pb-12',
     },
     {
       description: 'Przyjazd do Pałacu Radomiłów, powitanie gości, życzenia',
-      hour: '16:00',
+      hour: '17:00',
       icon: 'local:building',
       class: 'pb-10',
     },
     {
       description: 'Obiad',
-      hour: '17:00',
+      hour: '17:40',
       icon: 'local:dinner',
       class: 'pb-10',
     },
     {
       description: 'Pierwszy taniec',
-      hour: '17:30',
+      hour: '18:40',
       icon: 'local:dance',
       class: 'pb-12',
     },
     {
-      description: 'Pokaz tańców ludowych',
-      hour: '21:00',
-      icon: 'local:folk-dance',
+      description: 'Tort',
+      hour: '20:00',
+      icon: 'local:cake',
       class: 'pb-12',
     },
     {
-      description: 'Tort',
-      hour: '22:00',
-      icon: 'local:cake',
+      description: 'Pokaz tańców ludowych',
+      hour: '21:30',
+      icon: 'local:folk-dance',
       class: 'pb-12',
     },
     {

@@ -36,7 +36,7 @@
             class="app-separator--flat max-w-[180px] !bg-white opacity-15"
           ></div>
           <span class="text-body-m w-full text-center lg:w-[320px]">
-            O godzinie 20:00 zapraszamy wszystkich Gości weselnych na wspólne
+            O godzinie 19:00 zapraszamy wszystkich Gości weselnych na wspólne
             zdjęcie grupowe, które zostanie wykonane na tarasie pałacu. Będzie
             to doskonała okazja, by upamiętnić ten wyjątkowy moment i stworzyć
             pamiątkę, która będzie towarzyszyć nam przez lata. Prosimy, aby
