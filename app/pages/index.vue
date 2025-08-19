@@ -13,6 +13,8 @@
   const config = useRuntimeConfig();
   const displayDayScheduleSection = config.public.displayDayScheduleSection;
   const displayAttractionsSection = config.public.displayAttractionsSection;
+
+  const googleMapsApiKey = config.public.googleMapsApiKey;
 </script>
 
 <template>
@@ -29,7 +31,14 @@
       address="Katedra pw. św. Apostołów Piotra i Pawła Poewangelicka"
     />
     <WeddingReceoption />
-    <MapSection address="Pałac Radomiłów, Radomiłów 23, 59-305" />
+    <iframe
+      :src="`https://www.google.com/maps/d/u/0/embed?mid=1q8VyZdeLgfoG0BlXsEcMc_R-7juku1A&ehbc=2E312F?key=${googleMapsApiKey}`"
+      width="100%"
+      height="480"
+      style="border: 0"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
     <ContactSection />
   </div>
 </template>

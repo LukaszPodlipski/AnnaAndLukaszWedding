@@ -56,7 +56,7 @@
                   <span class="text-body-s text-white">Horrory</span>
                   <span class="text-body-s text-white">100%</span>
                 </div>
-                <ProgressBar :value="50"></ProgressBar>
+                <ProgressBar :value="100"></ProgressBar>
               </div>
               <div class="flex w-full flex-col gap-2">
                 <div class="flex w-full justify-between">
