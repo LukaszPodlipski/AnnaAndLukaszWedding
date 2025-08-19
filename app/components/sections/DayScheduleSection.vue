@@ -35,6 +35,12 @@
       class: 'pb-12',
     },
     {
+      description: 'Zdjęcie grupowe',
+      hour: '19:00',
+      icon: 'local:shutter-white',
+      class: 'pb-12',
+    },
+    {
       description: 'Tort',
       hour: '20:00',
       icon: 'local:cake',
