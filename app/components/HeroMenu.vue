@@ -34,6 +34,11 @@
         href: '/wedding-reception',
         scrollTo: 'wedding-reception-section',
       },
+      {
+        label: t('heroMenu.photoAlbum'),
+        href: '/photo-album',
+        scrollTo: 'photo-album-section',
+      },
     ].filter((item) => !item.hidden);
   });
 
