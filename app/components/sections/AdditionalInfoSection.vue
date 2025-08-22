@@ -20,11 +20,11 @@
             class="app-separator--flat max-w-[180px] !bg-white opacity-15"
           ></div>
           <span class="text-body-m w-full text-center lg:w-[320px]">
-            Składanie życzeń Młodej Parze odbędzie się zaraz po przyjeździe z
-            kościoła do sali weselnej, na tarasie pałacu. To idealna okazja, by
-            wszyscy goście zdążyli przyjechać i osobiście złożyć swoje
-            gratulacje oraz najlepsze życzenia nowożeńcom, zanim rozpoczniemy
-            oficjalną część wesela.
+            Składanie życzeń Młodej Parze odbędzie się na sali weselnej zaraz po
+            powitaniu chlebem i solą. To idealna okazja, by wszyscy goście
+            zdążyli przyjechać i osobiście złożyć swoje gratulacje oraz
+            najlepsze życzenia nowożeńcom, zanim rozpoczniemy oficjalną część
+            wesela.
           </span>
         </div>
         <div class="flex flex-col items-center gap-4">
