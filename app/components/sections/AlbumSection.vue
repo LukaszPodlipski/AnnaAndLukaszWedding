@@ -35,15 +35,17 @@
         <span v-else class="text-body-m mt-2 w-full max-w-[800px] text-center">
           Album zostanie aktywowany dniu wesela od godziny 15:00.
           <br />
-          Dodane zdjęcia będą widoczne w tym miejscu.
         </span>
+        <button
+          v-if="isWeddingDate"
+          class="rounded-full bg-green-900 px-4 py-2 text-white"
+        >
+          <a href="https://pov.camera/qr/534776A2-7036-4BE3-A4F7-6B812BDF7571">
+            Otwórz album
+          </a>
+        </button>
       </div>
     </div>
-    <iframe
-      v-if="isWeddingDate"
-      src="https://drive.google.com/embeddedfolderview?id=1TnKxE8LsT6NRfSUaH0VzwETUII_PV-c5#grid"
-      style="width: 100%; height: 600px; border: 0"
-    ></iframe>
   </div>
 </template>
 
